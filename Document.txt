@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>profile card</title>
+    <style>
+     body {
+      font-family: Arial, sans-serif;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profilecard {
+      background:white;
+      border-radius: 20px;
+      padding: 30px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 20px
+    }
+    .github-button img{
+      hight10px;
+      width:10px;
+      display-content:center,5px down the skill;
+      gap:40px
+    }
+    .skill {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+
+
+   
+        
+      }
+    }
+
+    </style>
+
+    </head>
+    <body>
+    <div class="profilecard">
+     <img src="https://uploads.onecompiler.io/43n87yxbk/43n8kcq3f/60-512.png" width="200"height="200"><br>
+    <h1 class="name">sanya sam</h1><br>
+    <p class="role">student and developer </p>
+    <p class="description ">learning and growing in the world of technology fueled by curiosity  and passion </p>
+     <div class="skills">
+  <span class="skill">HTML</span>
+  <span class="skill">CSS</span>
+  <span class="skill">html</span>
+</div>
+
+  
+  
+      <div class="contact">
+      <button class="contact github">
+      <image src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="14" height="24"></image>
+      GitHub
+      <button class ="contact linkdin ">
+        <image src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg" height="24" width= "24"></image></image>
+      </button>
+    </div>
+    </body>
+    </html>
